@@ -103,4 +103,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:AngelaYellow/angelayellow.github.io.git
-  branch: main
+  branch: gh-pages
