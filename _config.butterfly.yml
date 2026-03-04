@@ -1,0 +1,132 @@
+# --------------------------------------
+# Butterfly Theme Custom Configuration
+# Only override settings that differ from default
+# Full reference: node_modules/hexo-theme-butterfly/_config.yml
+# Doc: https://butterfly.js.org/
+# --------------------------------------
+
+# Navigation
+nav:
+  display_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-home
+  分类 || fas fa-folder-open:
+    技术与代码: /categories/tech-and-logic/ || fas fa-microchip
+    研究与文献: /categories/research-and-ideas/ || fas fa-flask
+    方法论: /categories/design-methodology/ || fas fa-lightbulb
+    作品展示: /categories/portfolio/ || fas fa-briefcase
+  标签: /tags/ || fas fa-tags
+  归档: /archives/ || fas fa-archive
+  关于: /about/ || fas fa-user
+
+# Code Blocks
+code_blocks:
+  theme: darker
+  macStyle: true
+  copy: true
+  language: true
+  shrink: false
+
+# Subtitle on homepage (typewriter effect)
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - 记录学习，沉淀思考 ✨
+    - Hardware · Software · Research · Design
+
+# Article layout: alternating left/right covers
+index_layout: 3
+
+# TOC (Table of Contents)
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  scroll_percent: true
+
+# Post copyright
+post_copyright:
+  enable: true
+  decode: false
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+
+# Aside
+aside:
+  enable: true
+  position: right
+  card_author:
+    enable: true
+    description: 探索技术，记录成长
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/AngelaYellow
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客！这里记录我在技术、研究与设计方面的学习历程。
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# Dark Mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# Beautify
+rounded_corners_ui: true
+
+# Preloader
+preloader:
+  enable: true
+  source: 2
+
+# Local Search (requires hexo-generator-searchdb)
+search:
+  use: local_search
+  placeholder: 搜索文章...
+  local_search:
+    preload: true
+
+# Share
+share:
+  use:
+
+# Comments (disabled for now, can enable later)
+comments:
+  use:

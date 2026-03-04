@@ -4,8 +4,8 @@
 
 # Site
 title: Yellow's Blog
-subtitle: ''
-description: ''
+subtitle: '记录学习，沉淀思考'
+description: 'Angela 的个人博客，记录技术开发、学术研究与设计方法论的学习历程'
 keywords:
 author: Angela Huang
 language: zh-CN
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
